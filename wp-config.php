@@ -21,19 +21,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'testingwp');
+define( 'DB_NAME', 'testingwp' );
 
 /** Database username */
-define('DB_USER', 'admin');
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define('DB_PASSWORD', 'admin');
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
-define('DB_HOST', 'localhost');
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define( 'AUTH_KEY',         'wZuUr|U*Pm8L6]<Qku_`gvXta/gx_MG2@p[~7GmNLKLwy_NSyBaN_ik{33EfP0^>' );
+define( 'SECURE_AUTH_KEY',  '2aK`[KvpV!XxZPi{8>szK%G$f:;I|zR-j1Wi]LF&50J%&h50F{3d=e.V&52_Fhd)' );
+define( 'LOGGED_IN_KEY',    'niSjyYey-{200H_U}}bxXWdLDjkU_BbR}KHpOJGTsw!JM1?#{yL6IwkD)EpvR!sX' );
+define( 'NONCE_KEY',        '+%EkY[N !R?c%/Lp?;V0!!~UeuZ>k;l=_J:wVZ*2Y{G%;.$w>9ZLh:!;!w|KtZQk' );
+define( 'AUTH_SALT',        'x ],7|,osc.sKCK*OL??w_M1,2Uy[s[,wEib5kv&bI+ZvAzX>[+2W@0^[D0a!sUV' );
+define( 'SECURE_AUTH_SALT', '|Zs eczNchXW%8o2RQVv_pIc^J f=eE%E,oOq;joczCtFdY$RVp>cYcl5jnuu^%:' );
+define( 'LOGGED_IN_SALT',   'mz?yiOte>}n|{B 2HP<L?(Xnv0>Mo29I<I+F-[X<aoplZX$oe!wu9zWiEwpg;2W1' );
+define( 'NONCE_SALT',       '/q*nz8PK*,4J73r2_ qzB>r.?/CdQSx*78i8]/J5a+_TMg>tk]-v0XigI#tk {A8' );
 
 /**#@-*/
 
